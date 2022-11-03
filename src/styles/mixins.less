@@ -1,0 +1,21 @@
+/* 向右的空心三角箭头 */
+.icon-arrow-right(@width: 8px, @height: 8px, @line-width: 1px, @color: transparent) {
+  box-sizing: border-box;
+  width: @width;
+  height: @height;
+  margin-right: @width / 8 * 2;
+  border-top: @line-width solid @color;
+  border-right: @line-width solid @color;
+  transform: rotate(45deg);
+}
+
+/* 向左的空心三角箭头 */
+.icon-arrow-left(@width: 8px, @height: 8px, @line-width: 1px, @color: transparent) {
+  box-sizing: border-box;
+  width: @width;
+  height: @height;
+  margin-left: @width / 8 * 2;
+  border-top: @line-width solid @color;
+  border-left: @line-width solid @color;
+  transform: rotate(-45deg);
+}
