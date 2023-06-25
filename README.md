@@ -35,8 +35,7 @@
   - 版本的冥等性 (即 lock file, npm 现在也有了)
   - 输出信息简洁
   - 从 npm 切到 yarn 简单学习即可: [快速入门](https://yarn.bootcss.com/)
-  - 更推荐使用 tyarn，速度会更快 [地址](https://github.com/yiminghe/tyarn)
-  - pmpm 暂不推荐使用
+  - 也推荐使用 tyarn，速度会更快 [快速入门](https://github.com/yiminghe/tyarn)
 
 ### 新手须知
 
